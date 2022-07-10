@@ -1,0 +1,212 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width: 500px;
+    height: 100%;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: violet;
+}
+
+.background {
+    z-index: -1;
+    position: absolute;
+    top: -75px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    margin-top: -75px;
+}
+
+.features {
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    text-shadow:    1px 1px 2px red, 
+                    0 0 30px violet, 
+                    0 0 50px darkblue,
+                    -1px -1px 2px blue;
+}
+
+.shows-tile {
+    background-image: linear-gradient(black 2%, lightblue, lightblue, rgb(216, 90, 90), lightblue, lightblue, black);
+}    
+
+.date-header {
+    background-color: black 0.5;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-dimension {
+    color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+table {
+    background-color: rgb(79, 45, 122, 0.25);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    border: dotted  rgb(79, 45, 122, 0.25);
+    text-align: center;
+}
+
+.discount {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+.shows {
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    border: 5px solid  rgb(79, 45, 122, 0.5);
+    border-radius: 3px;
+    margin: 25px;
+    padding: 5px;
+}
+
+.infocard {
+    margin-top: 18px;
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(79, 45, 122, 0.5);
+    color: solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 75px;
+    margin-top: 80%;
+    margin-right: 10px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 300px;
+    padding: 40px;
+    padding-left: 100px;
+}
+
+.mapimg {
+    margin-top: -33px;
+    width: 300px;
+}
+
+#footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    padding: 10px;
+}
+
+.footinfo {
+    padding: 10px;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshow {
+    padding: 10px;
+}
+
+.footsocials {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.media {
+    padding: 10px;
+}
+
+.foothead {
+    font-size: 1.5em;
+}
+
+.tiny {
+    margin: 0px;
+}
